@@ -122,6 +122,12 @@ PATH
       dependabot-common (= 0.263.0)
 
 PATH
+  remote: sbt
+  specs:
+    dependabot-sbt (0.263.0)
+      dependabot-common (= 0.263.0)
+
+PATH
   remote: silent
   specs:
     dependabot-silent (0.263.0)
@@ -397,6 +403,7 @@ DEPENDENCIES
   dependabot-nuget!
   dependabot-pub!
   dependabot-python!
+  dependabot-sbt!
   dependabot-silent!
   dependabot-swift!
   dependabot-terraform!

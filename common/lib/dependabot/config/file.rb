@@ -74,6 +74,7 @@ module Dependabot
         "npm" => "npm_and_yarn",
         "pip" => "pip",
         "pub" => "pub",
+        "sbt" => "sbt",
         "swift" => "swift",
         "terraform" => "terraform"
       }.freeze, T::Hash[String, String])

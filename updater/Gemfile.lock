@@ -139,6 +139,12 @@ PATH
     dependabot-terraform (0.263.0)
       dependabot-common (= 0.263.0)
 
+PATH
+  remote: ../sbt
+  specs:
+    dependabot-sbt (0.263.0)
+      dependabot-common (= 0.263.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -408,6 +414,7 @@ DEPENDENCIES
   dependabot-silent!
   dependabot-swift!
   dependabot-terraform!
+  dependabot-sbt!
   flamegraph (~> 0.9.5)
   gpgme (~> 2.0)
   http (~> 5.1)

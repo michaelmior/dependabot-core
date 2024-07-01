@@ -34,6 +34,7 @@ GEMSPECS = %w(
   silent/dependabot-silent.gemspec
   swift/dependabot-swift.gemspec
   devcontainers/dependabot-devcontainers.gemspec
+  sbt/dependabot-sbt.gemspec
 ).freeze
 
 def run_command(command)
